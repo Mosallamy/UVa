@@ -50,6 +50,7 @@ public class Traversing {
                     distination = input.nextInt();
                 }
             }
+            int zero = input.nextInt();
             int len = input.nextInt();
             for (int i = 0; i <len ; i++) {
                 int vertex = input.nextInt();
