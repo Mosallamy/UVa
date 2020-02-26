@@ -38,7 +38,7 @@ public class Traversing {
         }
     }
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("traversing.in"));
+        Scanner input = new Scanner(Systen.in));
         int num = input.nextInt();
         while (num!=0){
             Graph g = new Graph(num);
